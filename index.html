@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Owed Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>John Owed Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <aside>
+      <img src="./assets/images/me.png" alt="personal photo" />
+      <h2 id = "me">About me</h2>
+        <p>John is a student at the UC Berkeley Full Stack Developer Bootcamp. He enjoys learning new technologies and hopes to use the new skillsets he learns to build world changing products!</p>
+      <h2>Interests</h2>
+        <p>In addition to technology, John enjoys time with his dog Waldo, strength training and experimenting with life hacks such as meal prep techniques.</p>
+      <h2>Current Goals</h2>
+        <ul>
+          <li>Complete Bootcamp by July 2023</li>
+          <li>Continue to stay healthy and happy</li>
+          <li>Find a meaningful project for post-bootcamp</li>
+        </ul>
+      <h2  id="contact">Contact</h2>
+        <ul>
+          <li><b>Email:</b> <a href = "mailto:  johnowed@gmail.com"> johnowed@gmail.com</a></li>
+          <li><b>Phone:</b> 419-450-7894</li>
+          <li><b>Location:</b> Seattle, WA</li>
+          <li><b>Github:</b> <a href = "https://github.com/johnpow"> johnpow</a></li> 
+          <li><b><a href = "https://www.linkedin.com/in/johnowed/"> LinkedIn</b></a></li> 
+        </ul>
+      <h2>Join my mailing list!</h2>
+      <form>
+        <input type="text" placeholder="Enter email for mailing list" />
+        <button>Submit</button>
+      </form>
+    </aside>
+    <section>
+      <article>
+        <h2>Featured Projects</h2>
+        <div>
+          <p>This section is dedicated to showing off some of my best projects. Each project:</p>
+          <ul>
+            <li>Leverages multiple skillsets/technologies</li>
+            <li>Showcases a final product linked to a deployed website</li>
+            <li>Provides the user with a link to the Github repository</li>
+          </ul>
+          <p>Over the course of the next 6 months I will be continuing to build on this to showcase my work.</p>
+          <p>Hover over any image and click to see the final product!</p>
+        </div>
+           <!-- Product Cards -->
+        <div id = "projects" class="products">
+          <section class="cardmain">
+            <header>Horiseon Refactoring</header>
+            <!-- create image as a link -->
+            <a href="https://johnpow.github.io/mod1-challenge-new/">
+              <img src="./assets/images/horiseon.png" alt="website screenshot" />
+            </a>
+            <p>Skills: HTML, CSS, .md | <a href="https://github.com/johnpow/mod1-challenge-new">Github</a></p>
+          </section>
+          <section class="card">
+            <header>Best Project</header>
+            <!-- create image as a link -->
+            <a href="http://www.google.com">
+              <img src="./assets/images/placeholder1.png" alt="best project screenshot" />
+            </a>
+            <p>Skills: REST-API, Javascript | <a href="http://www.google.com">Github</a></p>
+          </section>
+          <section class="card">
+            <header>Amazing Project</header>
+            <!-- create image as a link -->
+            <a href="http://www.google.com">
+              <img src="./assets/images/placeholder2.png" alt="amazing project screenshot" />
+            </a>
+            <p>Skills: MongoDB, APIs | <a href="http://www.google.com">Github</a></p>
+          </section>
+          <section class="card">
+            <header>Cool Project</header>
+            <!-- create image as a link -->
+            <a href="http://www.google.com">
+              <img src="./assets/images/placeholder3.png" alt="cool project screenshot" />
+            </a>
+            <p>Skills: MERN Stack | <a href="http://www.google.com">Github</a></p>
+          </section>
+          <section class="card">
+            <header>Extra Cool Project</header>
+            <!-- create image as a link -->
+            <a href="http://www.google.com">
+              <img src="./assets/images/placeholder4.png" alt="extra cool project screenshot" />
+            </a>
+            <p>Skills: MERN Stack | <a href="http://www.google.com">Github</a></p>
+          </section>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Thanks for visiting!</span>
+  </footer>
+</body>
+
+</html>
