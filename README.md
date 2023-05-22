@@ -35,4 +35,4 @@ I've mostly used the lessons from Week 2 to complete these site - specifically, 
 
 ## Access
 
-Click to view: [John Owed Portfolio](https://johnpow.github.io/mod2-personal-portfolio/).
+Click to view: [John Owed Portfolio](https://johnpow.github.io/personal-portfolio/).
